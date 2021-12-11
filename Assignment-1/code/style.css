@@ -39,10 +39,16 @@
     }
   }
   @media only screen and (min-width:1024px){
+    .yellow{
+        display:flex;
+        height:33vh;
+        
+        flex-direction: row;
+    }
     .yellow>div{
-        height:12vh;
-        margin:2vw;
         background-color: yellow;
+        margin:2vw;
+        width:50%;
     }
     .blue{
         display:flex;
