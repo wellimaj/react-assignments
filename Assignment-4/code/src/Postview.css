@@ -1,5 +1,8 @@
-.site-container{
+.site-container {
+  padding-top: 60px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 html {
   font-size: 14px;
@@ -7,5 +10,64 @@ html {
 body {
   line-height: 1.5;
   color: black;
-  margin:0;
-} 
+  margin: 0;
+}
+.post-box {
+  margin: 5px;
+  border-radius: 2px;
+  align-self: center;
+  width: 50%;
+  height: auto;
+  border: 1px solid grey;
+}
+.top-bar {
+  border-bottom: 1px solid grey;
+  height: 60px;
+}
+.top-bar-left {
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dots {
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.top-bar-left-name {
+  font-weight: 800;
+}
+.main-img {
+  width: 100%;
+}
+.after-img {
+  display: block;
+  height: 20px;
+}
+.after-img svg {
+  float: left;
+  margin-left: 10px;
+}
+.date {
+  float: right;
+}
+.likes {
+  display: block;
+  float: left;
+  height: 20px;
+}
+.description {
+  height: 20px;
+  width: 100%;
+  font-weight: 800;
+}
+.landc {
+  margin: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
